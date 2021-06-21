@@ -14,8 +14,8 @@ ReactDOM.render(
   <Router>
     <App>
       <Switch>
-        <Route path="/" component={RequestPage} exact/>
-        <Route path="/status" component={StatusPage} exact/>
+        <Route path="/" component={RequestPage} exact />
+        <Route path="/status" component={StatusPage} exact />
         {/* <Route component={NotFound} /> */}
       </Switch>
     </App>
